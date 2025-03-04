@@ -12,6 +12,7 @@ import UserConsumer from './ContextApi/userConsumer.js';
 import CountingComponent from './HookDemo/CustomHook/CountingComponent.js';
 import SetUserDetails from './LocalStorageDemo/setUserDetails.js';
 import GetUserDetails from './LocalStorageDemo/GetUserDetails.js';
+import UseCustomHook from './LocalStorageDemo/UseCustomHook.js';
 
 function App() {
   const user = { firstName: 'Snehil', lastName: 'Sah' };
@@ -45,6 +46,9 @@ function App() {
       <SetUserDetails />
       <br />
       <GetUserDetails />
+      <hr />
+      <h3 className='display-1'>Local Storage Custom Hook Demo</h3>
+      <UseCustomHook />
     </div>
   );
 }
